@@ -43,10 +43,10 @@ We used **Smooth L1 loss** instead of MSE, as it yielded lower SMAPE and more st
 ### 3.1 Architecture Overview
 
 | Stage                 | Model/Component                  | SMAPE (Validation) 
-| --------------------- | -------------------------------- | ------------------ | -------------- |
-| First Approach        | Bert Base                |  49.1      
-| Pretraining           | DeBERTa (Regression Task)| 44.2 
-| Final Hybrid Training | DeBERTa + Cross-Attention Fusion| 40.1
+| --------------------- | -------------------------------- | ------------------
+| First Approach        | Bert Base                        |  49.1      
+| Pretraining           | DeBERTa (Regression Task)        | 44.2 
+| Final Hybrid Training | DeBERTa + Cross-Attention Fusion | 40.1
 
 ---
 
